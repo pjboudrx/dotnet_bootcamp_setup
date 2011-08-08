@@ -1,0 +1,130 @@
+<h1>Nothin But .Net - Setup Instructions</h1>
+
+<h1>Required Setup</h1>
+
+<p>The following is the setup that you will need to perform to configure all necessary prerequisites to be able to enjoy the week. If you have any questions, please do not hesitate to ask!!</p>
+
+<h2>Get setup at <a href="http://github.com">Github</a></h2>
+
+<ul>
+<li><a href="https://github.com/signup/free">Sign up</a> for a free account at github.com. My recommendation is to use an all lowercase username.</li>
+</ul>
+
+
+<h2>Install Ruby</h2>
+
+<ul>
+<li>Install the latest version of Ruby from <a href="http://rubyforge.org/frs/download.php/75127/rubyinstaller-1.9.2-p290.exe">here</a></li>
+<li>Make sure you select the following options:
+
+<ul>
+<li>Add Ruby Executables to your path</li>
+<li>Associate .rb and .rbw files with this Ruby installation</li>
+</ul>
+</li>
+<li>Once the install has completed, verify your installation by opening up a command prompt and typing in: ruby -v. You should see:
+
+<ul>
+<li>ruby 1.9.2p180 (2011-02-18) [i386-mingw32]</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Install Git for windows</h2>
+
+<ol>
+<li><p>Install the 1.7.4 version of git for windows from <a href="http://code.google.com/p/msysgit/downloads/detail?name=Git-1.7.4-preview20110204.exe&amp;can=2&amp;q=">here</a></p></li>
+<li><p>Configure according to the following screenshots:</p></li>
+</ol>
+
+
+<p><img src="images/git_setup_part_1.png" alt="git_setup_part_1" />
+<img src="images/git_setup_part_2.png" alt="git_setup_part_2" /></p>
+
+<h2>Setup your git ssh authentication key</h2>
+
+<ol>
+<li>Open up a git bash prompt</li>
+<li>Enter the following command:  <br/>
+ssh-keygen -t rsa -c your_email_address<br/>
+Accept the defaults for the remaining prompts (leave the passphrase blank).</li>
+<li>Navigate to the folder where your ssh key was created (by default your profile folder C:\Users\your_user_name)</li>
+<li>Open the file id_rsa.pub and copy the contents to the clipboard.</li>
+<li>Login to your account at <a href="https://github.com/login">github</a>.</li>
+<li>Navigate to your <a href="https://github.com/account/ssh">ssh settings</a></li>
+<li>Click on the link: Add Another Public Key:</li>
+<li>Give your key a title and paste the public key that is in your clipboard from step 4 into the Key text entry:</li>
+</ol>
+
+
+<p><img src="images/add_ssh_key.png" alt="ssh key entry" /></p>
+
+<h2>Verify that your git ssh authentication works</h2>
+
+<ol>
+<li>Open up a git bash prompt</li>
+<li><p>Enter the following command:
+ssh-v git@github.com</p></li>
+<li><p>You may be prompted to cache the server identity (type yes)</p></li>
+<li>If you have setup your ssh settings correctly the bottom part of the command output should look similar to the following:</li>
+</ol>
+
+
+<p><img src="images/git_authentication.png" alt="successful authentication" /></p>
+
+<h2>Fork the project repositories for the week</h2>
+
+<ol>
+<li>Login to your account at <a href="https://github.com/login">github</a></li>
+<li>Search for the username developwithpassion:</li>
+</ol>
+
+
+<p><img src="images/github_search_for_develop_with_passion.png" alt="Search for developwithpassion" /></p>
+
+<ol>
+<li>Click on the developwithpassion user</li>
+</ol>
+
+
+<p><img src="images/github_developwithpassion_user.png" alt="developwithpassion user" /></p>
+
+<ol>
+<li>Click on the shawaugp repository:</li>
+</ol>
+
+
+<p><img src="images/github_shawaugp.png" alt="shawaugp repository" /></p>
+
+<ol>
+<li>Click on the fork button to create your own copy of this repository</li>
+</ol>
+
+
+<p><img src="images/github_fork.png" alt="shawaugp fork" /></p>
+
+<ol>
+<li>Repeat steps 2-5 for the repository shawaugs.</li>
+</ol>
+
+
+<h2>Checkout your local copies of the code</h2>
+
+<ol>
+<li>Create a folder named course (keep it all lowercase) at the root of your main drive.</li>
+<li>Open up a git bash prompt and navigate to your course folder.</li>
+<li>Issue the following command from inside the course folder:</li>
+</ol>
+
+
+<h1>Optional Setup</h1>
+
+<h2>Install TestDriven .Net</h2>
+
+<ul>
+<li>Download and install the latest student version of <a href="http://testdriven.net/download_release.aspx?LicenceType=Personal">TestDriven.Net</a></li>
+</ul>
+
+
+<h1>#</h1>
