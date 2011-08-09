@@ -23,8 +23,8 @@ The following is the setup that you will need to perform to configure all necess
 
 * Configure according to the following screenshots:
 
-![git_setup_part_1](images/git_setup_part_1.png)
-![git_setup_part_2](images/git_setup_part_2.png)
+![git_setup_part_1](https://github.com/developwithpassion/nbdn_setup/raw/master/imagesgit_setup_part_1.png)
+![git_setup_part_2](https://github.com/developwithpassion/nbdn_setup/raw/master/imagesgit_setup_part_2.png)
 
 ##Setup your git ssh authentication key
 
@@ -39,7 +39,7 @@ The following is the setup that you will need to perform to configure all necess
 7. Click on the link: Add Another Public Key:
 8. Give your key a title and paste the public key that is in your clipboard from step 4 into the Key text entry:
 
-![ssh key entry](images/add_ssh_key.png)
+![ssh key entry](https://github.com/developwithpassion/nbdn_setup/raw/master/imagesadd_ssh_key.png)
 
 ##Verify that your git ssh authentication works
 
@@ -50,7 +50,7 @@ The following is the setup that you will need to perform to configure all necess
 3. You may be prompted to cache the server identity (type yes)
 4. If you have setup your ssh settings correctly the bottom part of the command output should look similar to the following:
 
-![successful authentication](images/git_authentication.png)
+![successful authentication](https://github.com/developwithpassion/nbdn_setup/raw/master/imagesgit_authentication.png)
 
 
 ##Fork the project repositories for the week
@@ -58,19 +58,19 @@ The following is the setup that you will need to perform to configure all necess
 1. Login to your account at [github](https://github.com/login)
 2. Search for the username developwithpassion:
 
-![Search for developwithpassion](images/github_search_for_develop_with_passion.png)
+![Search for developwithpassion](https://github.com/developwithpassion/nbdn_setup/raw/master/imagesgithub_search_for_develop_with_passion.png)
 
 3. Click on the developwithpassion user
 
-![developwithpassion user](images/github_developwithpassion_user.png)
+![developwithpassion user](https://github.com/developwithpassion/nbdn_setup/raw/master/imagesgithub_developwithpassion_user.png)
 
 4. Click on the shawaugp repository:
 
-![shawaugp repository](images/github_shawaugp.png)
+![shawaugp repository](https://github.com/developwithpassion/nbdn_setup/raw/master/imagesgithub_shawaugp.png)
 
 5. Click on the fork button to create your own copy of this repository
 
-![shawaugp fork](images/github_fork.png)
+![shawaugp fork](https://github.com/developwithpassion/nbdn_setup/raw/master/imagesgithub_fork.png)
 
 6. Repeat steps 2-5 for the repository shawaugs.
 
