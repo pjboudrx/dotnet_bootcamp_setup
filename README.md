@@ -89,6 +89,12 @@ The following is the setup that you will need to perform to configure all necess
 
 * Download and install the latest student version of [TestDriven.Net](http://testdriven.net/download_release.aspx?LicenceType=Personal)
 
-##
+##Resharper 6.0
+
+* Download and install the latest version of [ReSharper](http://www.jetbrains.com/resharper/)
+
+##Autohotkey
+
+* Download and install the latest version of [Autohotkey](http://www.autohotkey.com/)
 
 
