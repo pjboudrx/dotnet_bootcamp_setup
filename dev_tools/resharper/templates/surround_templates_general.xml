@@ -7,4 +7,14 @@
     <Variables />
     <CustomProperties />
   </Template>
+  <Template uid="d02febcf-1b14-43b7-b8a6-87ffd356c2e0" shortcut="" description="class" text="class $name$&#xD;&#xA;{&#xD;&#xA;    $SELECTION$&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Scopes>
+      <Scope type="InCSharpFile" minimumLanguageVersion="2.0" />
+    </Scopes>
+    <Categories />
+    <Variables>
+      <Variable name="name" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
 </TemplatesExport>
