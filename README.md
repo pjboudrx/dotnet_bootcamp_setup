@@ -108,7 +108,9 @@ The following is the setup that you will need to perform to configure all necess
 ##Clone the supplemental setup repository
 
 1. Open up a git bash prompt and navigate to your course folder. 
-2. Issue the following command:
+2. Issue the following command:  
+   git clone git://github.com/developwithpassion/dotnet_bootcamp_setup.git setup
+3. After the clone is complete your course directory should look as follows:<br> ![course_folder_after_setup_clone](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/course_directory_after_setup_clone.png)
   
 
 #Strongly Recommended Optional Setup
