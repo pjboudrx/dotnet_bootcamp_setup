@@ -52,6 +52,10 @@ The following is the setup that you will need to perform to configure all necess
 
 ![successful authentication](http://github.com/developwithpassion/nbdn_setup/raw/master/images/git_authentication.png)
 
+##Update git configuration details
+
+1. To ensure that you have settings that will work in the most optimal way for the class, I recommend downloading the following [file](http://github.com/developwithpassion/nbdn_setup/raw/master/dev_tools/git/.gitconfig). Edit the file to make the necessary changes for your name and email address. Once you have changed the username and email address, copy the file to your home folder.
+
 
 ##Fork the project repositories for the week
 
