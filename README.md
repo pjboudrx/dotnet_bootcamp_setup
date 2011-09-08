@@ -1,4 +1,4 @@
-#Nothin But .Net - Setup Instructions
+#Develop With Passion® - .Net Developer BootCamp Setup
 
 #Required Setup
 
