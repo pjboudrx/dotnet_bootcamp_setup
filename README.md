@@ -62,10 +62,10 @@ The following is the setup that you will need to perform to configure all necess
 ##Fork the project repositories for the week
 
 1. Login to your account at [github](https://github.com/login)
-2. Search for the username developwithpassion: ![Search for developwithpassion](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_search_for_develop_with_passion.png)
-3. Click on the developwithpassion user ![developwithpassion user](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_developwithpassion_user.png)
+2. Search for the username developwithpassion: <br>![Search for developwithpassion](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_search_for_develop_with_passion.png)
+3. Click on the developwithpassion user <br>![developwithpassion user](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_developwithpassion_user.png)
 4. Click on the name of your prep repository for the week(repository name in the screenshot is for example purposes only!!): ![repository](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_shawaugp.png)
-5. Click on the fork button to create your own copy of this repository ![fork](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_fork.png)
+5. Click on the fork button to create your own copy of this repository <br>![fork](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_fork.png)
 6. Repeat steps 2-5 for the app repository for the week.
 
 ## Checkout your local copies of the code
