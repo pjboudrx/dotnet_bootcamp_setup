@@ -64,11 +64,11 @@ The following is the setup that you will need to perform to configure all necess
 1. Login to your account at [github](https://github.com/login)
 2. Search for the username developwithpassion:
   
-  ![Search for developwithpassion](http://github.com/developwithpassion/nbdn_setup/raw/master/imagesgithub_search_for_develop_with_passion.png)
+  ![Search for developwithpassion](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_search_for_develop_with_passion.png)
 
 3. Click on the developwithpassion user
 
-![developwithpassion user](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_developwithpassion_user.png)
+  ![developwithpassion user](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_developwithpassion_user.png)
 
 4. Click on the name of your prep repository for the week(repository name in the screenshot is for example purposes only!!):
 
