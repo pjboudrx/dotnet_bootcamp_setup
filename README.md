@@ -6,6 +6,18 @@ The following is the setup that you will need to perform to configure all necess
 
 ##Make sure that you have configured windows to show all hidden files and folders
 
+##Configure Powershell
+
+1. Make sure you are running Powershell 2.0.
+  * Open up a powershell prompt
+  * Type in $hostname.version
+  * You should see a Major version of 2 like the following screenshot: <br>![powershell version](http://github.com/developwithpassion/nbdn_setup/raw/master/images/powershell_version.png)
+2. Enable execution of local scripts
+  * Open up a powershell prompt
+  * Type in the following command:
+    set-executionpolicy RemoteSigned
+  * At the prompt that follows, make sure you type in a capital Y as in the following screenshot: <br>![powershell set_executionpolicy](http://github.com/developwithpassion/nbdn_setup/raw/master/images/powershell_set_execution_policy.png)
+
 ##Get setup at [Github](http://github.com)
 
 * [Sign up](https://github.com/signup/free) for a free account at github.com. My recommendation is to use an all lowercase username.
@@ -93,16 +105,13 @@ The following is the setup that you will need to perform to configure all necess
 ![checked out directory](http://github.com/developwithpassion/nbdn_setup/raw/master/images/checked_out_directory.png)
 
 
-
-#Optional Setup
-
 ##Install TestDriven .Net
 
 * Download and install the latest student version of [TestDriven.Net](http://testdriven.net/download_release.aspx?LicenceType=Personal)
 
-##Resharper 6.0
+##Resharper
 
-* Download and install the latest version of [ReSharper](http://www.jetbrains.com/resharper/)
+1. Download and install the latest version of [ReSharper](http://www.jetbrains.com/resharper/)
 
 ##Autohotkey
 
