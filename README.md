@@ -4,6 +4,8 @@
 
 The following is the setup that you will need to perform to configure all necessary prerequisites to be able to enjoy the week. If you have any questions, please do not hesitate to ask!!
 
+##Make sure that you have configured windows to show all hidden files and folders
+
 ##Get setup at [Github](http://github.com)
 
 * [Sign up](https://github.com/signup/free) for a free account at github.com. My recommendation is to use an all lowercase username.
@@ -68,22 +70,39 @@ The following is the setup that you will need to perform to configure all necess
 
 ![developwithpassion user](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_developwithpassion_user.png)
 
-4. Click on the shawaugp repository:
+4. Click on the name of your prep repository for the week(repository name in the screenshot is for example purposes only!!):
 
-![shawaugp repository](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_shawaugp.png)
+![repository](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_shawaugp.png)
 
 5. Click on the fork button to create your own copy of this repository
 
-![shawaugp fork](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_fork.png)
+![fork](http://github.com/developwithpassion/nbdn_setup/raw/master/images/github_fork.png)
 
-6. Repeat steps 2-5 for the repository shawaugs.
-
+6. Repeat steps 2-5 for the app repository for the week.
 
 ## Checkout your local copies of the code
 
-1. Create a folder named course (keep it all lowercase) at the root of your main drive.
+1. Create a folder named course (keep it all lowercase) at the root of your C: drive.
 2. Open up a git bash prompt and navigate to your course folder.
 3. Issue the following command from inside the course folder:
+
+  * git clone git@github.com:[your github user name]/[prep repository name].git prep
+    
+    Assuming your github username is jp and the prep repository is named bootcamp_prep, the command would look as follows:
+
+    git clone git@github.com:jp/bootcamp_prep.git prep  
+
+4. Issue the following command from inside the course folder:
+
+  * git clone git@github.com:[your github user name]/[app repository name].git app
+    
+    Assuming your github username is jp, and the app repository is named bootcamp_app the command would look as follows:
+
+    git clone git@github.com:jp/bootcamp_app.git app
+
+5. Once you have completed steps 3 and 4 your course folder should look as follows:
+
+![checked out directory](http://github.com/developwithpassion/nbdn_setup/raw/master/images/checked_out_directory.png)
 
 
 
