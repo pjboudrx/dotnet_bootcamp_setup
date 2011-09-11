@@ -44,7 +44,7 @@ The following is the setup that you will need to perform to configure all necess
 
 1. Open up a git bash prompt
 2. Enter the following command:    
-   ssh-keygen -t rsa -c your_email_address  
+   ssh-keygen -t rsa -C your_email_address  
    Accept the defaults for the remaining prompts (leave the passphrase blank).  
 3. Navigate to the folder where your ssh key was created (by default your profile folder C:\Users\your_user_name)
 4. Open the file id_rsa.pub and copy the contents to the clipboard.
@@ -59,7 +59,7 @@ The following is the setup that you will need to perform to configure all necess
 
 1. Open up a git bash prompt
 2. Enter the following command:
-   ssh-v git@github.com
+   ssh -v git@github.com
 
 3. You may be prompted to cache the server identity (type yes)
 4. If you have setup your ssh settings correctly the bottom part of the command output should look similar to the following:
@@ -122,8 +122,9 @@ The following is the setup that you will need to perform to configure all necess
 ##Resharper
 
 1. Download and install the latest version of [ReSharper](http://www.jetbrains.com/resharper/)
-
-
+2. Start visual studio at least once after installing R# so that the necessary configuration files are created.
+3. Navigate to the following folder:
+    * C:/course/setup/dev_tools/resharper/
 
 
 ##Autohotkey
