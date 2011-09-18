@@ -74,11 +74,9 @@ The following is the setup that you will need to perform to configure all necess
 ##Fork the project repositories for the week
 
 1. Login to your account at [github](https://github.com/login)
-2. Search for the username developwithpassion: <br>![Search for developwithpassion](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/github_search_for_develop_with_passion.png)
-3. Click on the developwithpassion user <br>![developwithpassion user](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/github_developwithpassion_user.png)
-4. Click on the name of your prep repository for the week(repository name in the screenshot is for example purposes only!!): ![repository](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/github_shawaugp.png)
-5. Click on the fork button to create your own copy of this repository <br>![fork](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/github_fork.png)
-6. Repeat steps 2-5 for the app repository for the week.
+2. Browse to https://github.com/pjboudrx/daxko_app, and click "fork." Select "Fork to (YourUsername)" if prompted.
+3. Browse to https://github.com/pjboudrx/daxko_prep, and click "fork." Select "Fork to (YourUsername)" if prompted.
+4. Browse to https://github.com/pjboudrx/dotnet_bootcamp_setup, and click "fork." Select "Fork to (YourUsername)" if prompted.
 
 ## Checkout your local copies of the code
 
@@ -104,13 +102,16 @@ The following is the setup that you will need to perform to configure all necess
 
 ![checked out directory](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/checked_out_directory.png)
 
+6. Issue the following command from inside the course folder:
 
-##Clone the supplemental setup repository
+  * git clone git@github.com:[your github user name]/[setup repository name].git setup
+    
+    Assuming your github username is jp, and the setup repository is named bootcamp_setup the command would look as follows:
 
-1. Open up a git bash prompt and navigate to your course folder. 
-2. Issue the following command:  
-   git clone git://github.com/pjbodurx/dotnet_bootcamp_setup.git setup
-3. After the clone is complete your course directory should look as follows:<br> ![course_folder_after_setup_clone](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/course_directory_after_setup_clone.png)
+    git clone git@github.com:jp/bootcamp_setup.git setup
+ 
+
+7. After the clone is complete your course directory should look as follows:<br> ![course_folder_after_setup_clone](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/course_directory_after_setup_clone.png)
   
 
 #Strongly Recommended Optional Setup
@@ -119,7 +120,7 @@ The following is the setup that you will need to perform to configure all necess
 
 * Download and install the latest student version of [TestDriven.Net](http://testdriven.net/download_release.aspx?LicenceType=Personal)
 
-##Resharper
+##Resharpe
 
 1. Download and install the latest version of [ReSharper](http://www.jetbrains.com/resharper/)
 2. Start visual studio at least once after installing R# so that the necessary configuration files are created.
