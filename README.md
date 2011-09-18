@@ -11,12 +11,12 @@ The following is the setup that you will need to perform to configure all necess
 1. Make sure you are running Powershell 2.0.
   * Open up a powershell prompt
   * Type in $hostname.version
-  * You should see a Major version of 2 like the following screenshot: <br>![powershell version](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/powershell_version.png)
+  * You should see a Major version of 2 like the following screenshot: <br>![powershell version](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/powershell_version.png)
 2. Enable execution of local scripts
   * Open up a powershell prompt
   * Type in the following command:
     set-executionpolicy RemoteSigned
-  * At the prompt that follows, make sure you type in a capital Y as in the following screenshot: <br>![powershell set_executionpolicy](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/powershell_set_execution_policy.png)
+  * At the prompt that follows, make sure you type in a capital Y as in the following screenshot: <br>![powershell set_executionpolicy](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/powershell_set_execution_policy.png)
 
 ##Get setup at [Github](http://github.com)
 
@@ -37,8 +37,8 @@ The following is the setup that you will need to perform to configure all necess
 
 * Configure according to the following screenshots:
 
-![git_setup_part_1](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/git_setup_part_1.png)
-![git_setup_part_2](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/git_setup_part_2.png)
+![git_setup_part_1](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/git_setup_part_1.png)
+![git_setup_part_2](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/git_setup_part_2.png)
 
 ##Setup your git ssh authentication key
 
@@ -53,7 +53,7 @@ The following is the setup that you will need to perform to configure all necess
 7. Click on the link: Add Another Public Key:
 8. Give your key a title and paste the public key that is in your clipboard from step 4 into the Key text entry:
 
-![ssh key entry](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/add_ssh_key.png)
+![ssh key entry](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/add_ssh_key.png)
 
 ##Verify that your git ssh authentication works
 
@@ -64,7 +64,7 @@ The following is the setup that you will need to perform to configure all necess
 3. You may be prompted to cache the server identity (type yes)
 4. If you have setup your ssh settings correctly the bottom part of the command output should look similar to the following:
 
-![successful authentication](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/git_authentication.png)
+![successful authentication](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/git_authentication.png)
 
 ##Update git configuration details
 
@@ -74,10 +74,10 @@ The following is the setup that you will need to perform to configure all necess
 ##Fork the project repositories for the week
 
 1. Login to your account at [github](https://github.com/login)
-2. Search for the username developwithpassion: <br>![Search for developwithpassion](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/github_search_for_develop_with_passion.png)
-3. Click on the developwithpassion user <br>![developwithpassion user](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/github_developwithpassion_user.png)
+2. Search for the username developwithpassion: <br>![Search for developwithpassion](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/github_search_for_develop_with_passion.png)
+3. Click on the developwithpassion user <br>![developwithpassion user](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/github_developwithpassion_user.png)
 4. Click on the name of your prep repository for the week(repository name in the screenshot is for example purposes only!!): ![repository](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/github_shawaugp.png)
-5. Click on the fork button to create your own copy of this repository <br>![fork](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/github_fork.png)
+5. Click on the fork button to create your own copy of this repository <br>![fork](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/github_fork.png)
 6. Repeat steps 2-5 for the app repository for the week.
 
 ## Checkout your local copies of the code
@@ -102,14 +102,14 @@ The following is the setup that you will need to perform to configure all necess
 
 5. Once you have completed steps 3 and 4 your course folder should look as follows:
 
-![checked out directory](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/checked_out_directory.png)
+![checked out directory](http://github.com/pjboudrx/dotnet_bootcamp_setup/raw/master/images/checked_out_directory.png)
 
 
 ##Clone the supplemental setup repository
 
 1. Open up a git bash prompt and navigate to your course folder. 
 2. Issue the following command:  
-   git clone git://github.com/developwithpassion/dotnet_bootcamp_setup.git setup
+   git clone git://github.com/pjbodurx/dotnet_bootcamp_setup.git setup
 3. After the clone is complete your course directory should look as follows:<br> ![course_folder_after_setup_clone](http://github.com/developwithpassion/dotnet_bootcamp_setup/raw/master/images/course_directory_after_setup_clone.png)
   
 
